@@ -1,0 +1,10 @@
+{
+  "name": "TGAnimeSearchBot",
+  "description": "Bot de Telegram para buscar y extraer enlaces de descargas de animes",
+  "repository": "https://github.com/ObisoftDev/tguploaderpro", 
+  "env": {
+    "bot_token": {
+      "description": "El token del bot"
+    }
+  }
+}
