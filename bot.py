@@ -3,7 +3,7 @@ from telegram.ext import Updater, InlineQueryHandler, CommandHandler, CallbackCo
 from telegram.utils.helpers import escape_markdown
 from uuid import uuid4
 import TioAnime
-
+import os
 
 def inlinequery(update: Update, context: CallbackContext) -> None:
     try:
