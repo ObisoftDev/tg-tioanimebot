@@ -62,7 +62,8 @@ def process_msg(update,context):
         reply += '<b>1-Buscador En Linea "Ultimos Episodios"</b>\n'
         reply += '<b>2-Buscador En Linea "Directorio" 1-'+str(TioAnime.getDirectorySize())+'</b>\n'
         reply += '<b>3-Exrtaccion de Enlace de Descarga</b>\n'
-        reply += '<b>4-Soporte Para Series Completas</b>\n'
+        reply += '<b>4-Soporte Para Series Completas</b>\n\n'
+        reply += '<b>Unete a nuestro canal de desarrollo @obidevchannel</b>\n'
         sendHtml(update,reply)
 
     if '/capitulo ' in msg:
